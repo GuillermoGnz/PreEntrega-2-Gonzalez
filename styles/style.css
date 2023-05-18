@@ -1,0 +1,81 @@
+/*BULMA*/
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+h1 {
+    text-align: center;
+    font-size: 7rem;
+    color: beige;
+    text-shadow: 2rem black ;
+}
+
+.col-md-4 {
+    padding-bottom: 2rem;
+
+}
+
+
+
+main {
+    background-color: #725733;
+
+}
+#img-signora {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10%;
+    border: 5px solid #725733;
+    box-shadow: 2rem 2rem 2rem 2rem #725733;
+    
+}
+
+.h1-conocenos {
+    display: felx;
+    font-size: 5rem;
+    text-decoration: underline 0.3rem;
+    text-align: center;
+}
+
+.visitanos {
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.maps {
+    display: flex;
+    max-width: 400px;
+    padding-left: 1rem;
+    border-radius: 10%;
+    border: 5px solid #1b1b1a;
+}
+
+.redes {
+    display: flex;
+    max-width: 120px;
+
+}
+
+.footer {
+    padding-bottom: 1rem;
+}
+
+.conocenos-text {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    /*text-shadow: 7rem rgb(119, 61, 14) ;*/
+}
+
+.nro-correo {
+    display: contents;
+    text-align: end;
+}
+
+.accordion {
+    padding: 50px;
+
+}
+.comentanos-footer {
+position: fixed;}
