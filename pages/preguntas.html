@@ -11,13 +11,16 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../styles/style.css">
 
+    <!-- animate.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Toco Madera</a>
+                <a class="navbar-brand animate__animated animate__backInLeft" href="../index.html">Toco Madera</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,57 +31,64 @@
 
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link active animate__animated animate__backInLeft" aria-current="page" href="../index.html">Inicio</a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="quienes-somos.html">Conocenos</a>
+                            <a class="nav-link animate__animated animate__backInLeft" href="quienes-somos.html">Conocenos</a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="preguntas.html">preguntas frecuentes</a>
+                            <a class="nav-link animate__animated animate__backInLeft" href="preguntas.html">preguntas frecuentes</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="pedidos.html">Pedidos por cantidad</a>
+                            <a class="nav-link animate__animated animate__backInLeft" href="pedidos.html">Pedidos por cantidad</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link animate__animated animate__backInLeft" href="comentarios.html">Comentarios</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle animate__animated animate__backInLeft" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Categorias
                             </a>
+                    </ul>
 
-
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="../index.html#maderas">Maderas</a></li>
-                                <li><a class="dropdown-item" href="../index.html#metalicos">Metalicos</a></li>
-                                <li><a class="dropdown-item" href="../index.html#ceramicos">Ceramicos</a></li>
-                                <li><a class="dropdown-item" href="../index.html#personalizados">Personalizados</a></li>
-
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../index.html#maderas">Maderas</a></li>
+                        <li><a class="dropdown-item" href="../index.html#metalicos">Metalicos</a></li>
+                        <li><a class="dropdown-item" href="../index.html#ceramicos">Ceramicos</a></li>
+                        <li><a class="dropdown-item" href="../index.html#personalizados">Personalizados</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+
+
+
+
+
     <main>
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing.
+                        <p> Cuanto tarda en llegar mi producto?</p>
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita non laboriosam earum dolore ab nulla quis cum quaerat reprehenderit sunt, harum qui possimus blanditiis repudiandae nesciunt sequi vel veniam illum.
-
-
+                        <p> Los productos son hechos a mano, por lo que tardaremos entre una semana hasta un mes en
+                            entregarlo dependiendo del producto.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -86,12 +96,14 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                        <p> Se puede pedir producos personalizados?</p>
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus perferendis ut quaerat dicta ab odio modi sunt magnam. Sequi, architecto.
+                        <p> Por supuesto que si! Simplemente contactanos por mensaje directo y cuentanos como lo
+                            quieres,
+                            luego te responderemos dandote más detalles.</p>
                     </div>
                 </div>
             </div>
@@ -99,17 +111,23 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus perferendis 
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <p> Quiero verder los productos en mi local.</p>
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel rem cum nemo ullam harum!
+                        <p> Excelente! Ve a la sección "Pedidos en cantidad" que encontraras en la barra de navegación y
+                            sigue las instrucciones.</p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+
+
+
+
 
 
     <footer class="footer">

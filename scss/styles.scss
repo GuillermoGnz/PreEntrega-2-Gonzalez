@@ -1,5 +1,8 @@
 /*BULMA*/
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import 'animate.css';
+
+
 h1 {
   text-align: center;
   font-size: 7rem;
@@ -24,18 +27,32 @@ h1 {
   font-size: 3rem;
 }
 
+.col {
+  display: inline-block;
 }
+
+}
+
+
+
+$img-card: 280px 180px; 
+$brown-coment:  #ad8754;
+
 
 
 
 h2 {
   size: 10rem;
-
 }
 
 .col-md-4 {
   padding-bottom: 2rem;
 }
+
+.card-img-top {
+  width: auto;
+  height: 250px;
+  }
 
 main {
   background-color: #725733;
@@ -49,6 +66,10 @@ main {
   border-radius: 10%;
   border: 5px solid #725733;
   box-shadow: 2rem 2rem 2rem 2rem #725733;
+}
+
+.navbar {
+  position: sticky;
 }
 
 .h1-conocenos {
@@ -137,3 +158,16 @@ label {
   color: beige;
   padding-top: 3rem;
 }
+
+.col {
+  color: beige;
+  background-color: $brown-coment;
+  border: beige 0.1rem solid;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding-top: 1rem;
+  size: 1rem;
+}
+
+
+
