@@ -1,42 +1,24 @@
-/*partials*/
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
-@import 'animate.css';
-h1 {
-  text-align: center;
-  font-size: 7rem;
-  color: beige;
-  text-shadow: 2rem black;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-h2 {
-  size: 10rem;
-}
-
-main {
-  background-color: #725733;
-}
-
-label {
-  display: block;
-  font-weight: bold;
-  color: beige;
-}
-
 @media (max-width: 600px) {
   .h1-conocenos {
     font-size: 2rem;
   }
+
   .contacto p {
     font-size: 0.5rem;
   }
+
   .h1-contacto {
     font-size: 3rem;
   }
+
   .col {
     display: inline-block;
   }
+
 }
+
+
+
 .col-md-4 {
   padding-bottom: 2rem;
 }
@@ -46,22 +28,25 @@ label {
   height: 250px;
   transition: height 1s;
 }
-
 .card-img-top:hover {
-  width: auto;
-  height: 270px;
-}
+    width: auto;
+    height: 270px;
 
-.off, .hight-off {
+  }
+
+.off {
   font-size: 1.5em;
   color: grey;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   text-align: end;
 }
 
 .hight-off {
-  color: rgb(204, 32, 61);
+  @extend .off;
+  color: rgb(204, 32, 61)
 }
+
+
 
 #img-signora {
   max-width: 300px;
@@ -83,6 +68,9 @@ label {
   text-decoration: underline 0.3rem;
   text-align: center;
 }
+
+
+
 
 .visitanos {
   color: white;
@@ -141,12 +129,14 @@ label {
   align-items: center;
   flex-direction: column;
   text-align: center;
+
+  p {
+    color: beige;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
 }
-.contacto p {
-  color: beige;
-  font-size: 2rem;
-  padding-bottom: 1rem;
-}
+
 
 .datos-contacto {
   color: beige;
@@ -162,8 +152,3 @@ label {
   padding-top: 1rem;
   size: 1rem;
 }
-
-/*BULMA*/
-/*animaciones*/
-
-/*# sourceMappingURL=style.css.map */
