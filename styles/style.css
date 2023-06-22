@@ -14,7 +14,7 @@ h2 {
 }
 
 main {
-  background-color: #725733;
+  background-color: rgb(170, 81, 170);
 }
 
 label {
@@ -25,7 +25,7 @@ label {
 
 @media (max-width: 600px) {
   .h1-conocenos {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .contacto p {
     font-size: 0.5rem;
@@ -37,8 +37,23 @@ label {
     display: inline-block;
   }
 }
+
+
+
+
+.subtitle {
+  text-align: center;
+  font-size: 1.3rem;
+  color: beige;
+  
+}
+
 .col-md-4 {
   padding-bottom: 2rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
 }
 
 .card-img-top {
@@ -70,7 +85,6 @@ label {
   margin: auto;
   border-radius: 10%;
   border: 5px solid #725733;
-  box-shadow: 2rem 2rem 2rem 2rem #725733;
 }
 
 .navbar {
@@ -162,6 +176,38 @@ label {
   padding-top: 1rem;
   size: 1rem;
 }
+
+.error {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 7rem;
+  text-align: center;
+text-decoration: underline beige solid 0.3rem;
+color: beige;
+padding-top: 4rem;
+padding-bottom: 0rem;
+}
+.post-error {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,;
+  font-size: 2rem;
+  background-color: beige;
+text-align: center;
+
+}
+.button-error {
+  text-align: center;
+  color: grey;
+
+}
+
+.mas-preguntas {
+  text-align: center;
+  color: beige;
+  font-size: 1.5rem;
+  background-color: rgb(240, 240, 205);
+}
+
+
+
 
 /*BULMA*/
 /*animaciones*/
